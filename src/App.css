@@ -19,7 +19,7 @@ body {
 .form-container {
   width: 600px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px;
   background-color: #333;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -92,4 +92,17 @@ p {
   background-color: #fff;
   width: 500px;
   padding: 50px;
+}
+
+#dropdown{
+  position: absolute;
+  left: 80%;
+  bottom: 55%;
+  padding: 12px 10px;
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #222;
+  border-radius: 5px;
+  outline: none;
+font-size: 16px;
 }
