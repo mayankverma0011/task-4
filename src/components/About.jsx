@@ -27,9 +27,9 @@ function About() {
       try {
         let url;
         if (selectedOption === 'option1') {
-          url = "https://bank-task-complete-csv.onrender.com/uploadhdfc";
+          url = "https://task-0ram.onrender.com/importHDFC";
         } else if (selectedOption === 'option2') {
-          url = "https://bank-task-complete-csv.onrender.com/uploadicici";
+          url = "https://task-0ram.onrender.com/importICICI";
         }
 
         const response = await axios.post(url, formData);
