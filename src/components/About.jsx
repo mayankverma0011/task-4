@@ -16,7 +16,7 @@ function About() {
     setSelectedOption(event.target.value);
   };
 
-  // for btn to upload a file 
+  // for btn to upload a file
   const handleFileUpload = async () => {
     if (selectedFile) {
       const formData = new FormData();
@@ -38,6 +38,7 @@ function About() {
 
         if (response.status === 200) {
           console.log('File uploaded successfully. URL:', url);
+          alert("file is uploaded")
         } else {
           console.error('File upload failed.');
         }
@@ -46,6 +47,7 @@ function About() {
       }
     } else {
       console.error('No file selected.');
+      alert("no file selected")
     }
   };
 
