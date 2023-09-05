@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 87vh;
 }
 
 .form-container {
@@ -87,22 +87,56 @@ p {
 
 #about{
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 32%; 
   background-color: #fff;
   width: 500px;
   padding: 50px;
 }
 
-#dropdown{
-  position: absolute;
-  left: 80%;
-  bottom: 55%;
-  padding: 12px 10px;
-  background-color: #fff;
-  color: #222;
-  border: 1px solid #222;
+
+
+#accountDropdown{
+  padding: 12px;
+  border: none;
   border-radius: 5px;
-  outline: none;
-font-size: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #555;
+  width: 325px;
+  position: relative;
+  z-index: 15;
+}
+
+#dropdown{
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #555;
+  width: 325px;
+  position: relative;
+  z-index: 5;
+}
+
+option{
+  background-color: aliceblue;
+  color: #222;
+}
+
+a{
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 15px;
+ color: #8c5fb2;
+}
+
+nav{
+  position: fixed;
+  top: 0%;
+  z-index: 1;
 }
